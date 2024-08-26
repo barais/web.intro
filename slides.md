@@ -23,7 +23,7 @@ mdc: true
 addons:
   - slidev-component-poll
 pollSettings:
-  server: ws://ws.barais.fr
+  server: wss://ws.barais.fr
   autoConnect: true
   anonymous: true
 ---
