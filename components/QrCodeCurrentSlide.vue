@@ -23,7 +23,7 @@ const props = withDefaults(defineProps<QRCodeOption>(), {
     width: 200,
     height: 200,
     color:"blue",
-    image : "/logo.svg",
+    image : "logo.svg",
     margin: 5,
     dotsType: "extra-rounded",
     data:window.location.href
