@@ -22,6 +22,7 @@ transition: slide-left
 mdc: true
 addons:
   - slidev-component-poll
+  - slidev-addon-qrcodecurrentslide
 pollSettings:
   server: wss://ws.barais.fr
   autoConnect: true
