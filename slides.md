@@ -20,6 +20,12 @@ drawings:
 transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
+addons:
+  - slidev-component-poll
+pollSettings:
+  server: ws://ws.barais.fr
+  autoConnect: true
+  anonymous: true
 ---
 
 
@@ -217,3 +223,41 @@ style="position:absolute; left:300px; top:100px;">
 style="position:absolute; left:250px; top:100px;">
 <img src="/framework/img6.png" width="52%"></p>
 
+---
+
+
+<div class="grid grid-cols-3 gap-4 w-full">
+  <div class="col-span-2">
+
+<Poll question="Est il toujours nécessaire de développer votre application Web à l'aide de JS/CSS/Html" 
+:correctAnswer="[0]"
+:controlled="true"
+ :clearable="true" 
+ displayResults="poll">
+
+**Oui**
+
+**Non**
+
+**Cela dépend du navigateur visé**
+
+**Oui pour les applications hybrides**
+
+
+</Poll>
+
+  
+  </div>
+
+
+  <div class="col-span-1">
+<QrCodeCurrentSlide
+    :width="300"
+    :height="300"
+    color="blue"
+/>
+  
+  
+  </div>
+
+</div>
