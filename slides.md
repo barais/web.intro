@@ -22,11 +22,15 @@ transition: slide-left
 mdc: true
 addons:
   - slidev-component-poll
+  - slidev-addon-ws-syncho
   - slidev-addon-qrcodecurrentslide
 pollSettings:
   server: wss://ws.barais.fr
   autoConnect: true
   anonymous: true
+wsSettings:
+  server: wss://slidevsynchro.barais.fr
+  updateCursor: true # To send cursor update notification
 ---
 
 
