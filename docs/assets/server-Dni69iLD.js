@@ -1,1 +1,0 @@
-import{aG as r,t as a}from"./modules/vue-rRtXEXxZ.js";import{h as N}from"./helper-BO3RVoQ6.js";var D=(E=>(E[E.CONNECTED=0]="CONNECTED",E[E.DISCONNECTED=1]="DISCONNECTED",E[E.ERROR=2]="ERROR",E[E.IDLE=3]="IDLE",E))(D||{});const l=r("slidev-poll-group-id",N()),I=r("slidev-poll-auto-connect",""),O=a(D.IDLE);export{D as C,I as a,O as c,l as g};
