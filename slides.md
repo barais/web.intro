@@ -31,6 +31,7 @@ pollSettings:
 wsSettings:
   server: wss://slidevsynchro.barais.fr
   updateCursor: true # To send cursor update notification
+  synchroDrawing: true
 ---
 
 
