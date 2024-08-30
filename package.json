@@ -13,7 +13,7 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "slidev-addon-qrcodecurrentslide": "^1.0.2",
-    "slidev-addon-ws-syncho": "1.0.2",
+    "slidev-addon-ws-syncho": "1.0.3",
     "slidev-component-poll": "^2.1.1",
     "vue": "^3.4.38"
   },
